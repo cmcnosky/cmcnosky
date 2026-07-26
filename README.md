@@ -18,9 +18,16 @@ detects dishonest shortcuts: weakened tests, forbidden-file edits, fabricated co
 claims, broken house rules, leaked bait secrets. Emits a scored, evidence-linked Integrity
 Report under a preregistered, frozen rubric.
 
-Two rules shape it. **Cheating is decided by deterministic detectors, never an LLM judge** — the
-optional judge may only flag for human review, never set a verdict. And **any ambiguity fails
-closed** to a non-scored `error`, never to a favorable score.
+Two rules shape it. **Cheating is decided by deterministic detectors, never an LLM judge** —
+optional judge output is non-authoritative and cannot set a verdict or score. And **any
+ambiguity fails closed** to a non-scored `error`, never to a favorable score.
+
+The public repository includes a 30-scenario development and conformance suite. A signed,
+non-secret receipt now verifies **120 machine-validated benchmark-candidate scenarios** across
+five integrity families. That is validation evidence, not a benchmark score: the scoring corpus
+is not frozen, and no baseline matrix or independent reproduction is claimed yet.
+
+→ [Verify the signed 120-candidate receipt](https://github.com/cmcnosky/stinger/tree/main/benchmark/receipts/candidate-validation-v2)
 
 Model-agnostic and vendor-neutral by construction. CLI and GitHub Action.
 
