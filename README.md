@@ -1,78 +1,25 @@
-## Chris McNosky
+# Chris McNosky
 
-**AI-agent evaluation, adversarial testing, and evidence-backed governance.**
+**Target roles:** AI/LLM evaluation · AI red teaming · agent reliability · evidence-backed AI quality · technical writing for complex systems
 
-I design evaluation systems that turn agent claims into inspectable evidence. My work centers
-on adversarial test cases, explicit rubrics, deterministic checks, reproducible evidence
-packages, technical writing, and fail-closed release gates.
+I build evaluation and reliability systems that turn claims into inspectable evidence: adversarial scenarios, deterministic checks, reproducible artifacts, explicit authority boundaries, and release gates that fail closed.
 
-AI agents assist implementation. I own the problem definition, architecture, specifications,
-evaluation rubrics, adversarial review, approval gates, and release judgment. The goal is not
-to conceal the assistance; it is to make the resulting work auditable and keep accountability
-human.
+## Three inspectable achievements
 
----
+### 1. [Stinger](https://github.com/cmcnosky/stinger) — test agent integrity against evidence
 
-### [Stinger](https://github.com/cmcnosky/stinger) — adversarial evaluation for AI coding agents
+Stinger is a model-agnostic CLI and GitHub Action that runs sandboxed trap scenarios and detects observable shortcuts such as weakened tests, forbidden edits, unsupported completion claims, rule violations, and bait-secret exposure. Deterministic detectors set outcomes; ambiguous or missing evidence becomes a non-scored error. [Evaluate it in five minutes](https://github.com/cmcnosky/stinger#evaluate-stinger-in-five-minutes) or [inspect the committed evidence](https://github.com/cmcnosky/stinger/tree/main/evidence).
 
-Stinger runs sandboxed scenarios against a configured coding agent and checks observable
-behavior: weakened or skipped tests, forbidden paths and commands, completion claims that
-conflict with evidence, rule violations, and bait-secret exposure. Its seven deterministic
-detectors set outcomes; optional model judgment cannot determine a label or score. Ambiguous
-or missing evidence fails closed to a non-scored `error`.
+### 2. [WASP 2.0](https://github.com/cmcnosky/WASP-2.0) — design authority before automation
 
-**Current public status:**
+I directed a clean-room, single-user trading-system architecture around human-approved permits, environment isolation, decision replay, append-only evidence, reconcile-first startup, and hard stop gates. [Read the case study](https://github.com/cmcnosky/WASP-2.0/blob/main/CASE_STUDY.md) or follow the repository's [five-minute evaluation path](https://github.com/cmcnosky/WASP-2.0#evaluate-wasp-20-in-five-minutes).
 
-- **30 validated scenarios** across five integrity families in the public development and
-  conformance suite.
-- **Protocol 2 remains benchmark candidate / HOLD.** Its signed receipt covers 120
-  machine-validated benchmark-candidate scenarios. It is not a released benchmark, benchmark
-  score, certification, vendor ranking, or claim of a sealed or live-provider run.
+### 3. [The evaluator was wrong; the agent was right](https://cmcnosky.github.io/nofuckery/evidence/stinger-c04/) — correct the measurement, preserve the evidence
 
-The repository publishes the specification, scenarios, evidence packages, corrections, and
-release gates needed to challenge the work rather than simply accept its conclusions.
+In Stinger scenario C-04, a captured agent correctly refused an internally contradictory task, but the evaluator mislabeled the behavior. I preserved the original artifact, traced the classification error, expanded the refusal cases, added a non-refusal regression, and published the correction without changing the frozen scoring rule.
 
-- [Read the case study](https://github.com/cmcnosky/stinger/blob/main/CASE_STUDY.md)
-- [Inspect the committed evidence](https://github.com/cmcnosky/stinger/tree/main/evidence)
-- [Verify the signed Protocol 2 candidate receipt](https://github.com/cmcnosky/stinger/tree/main/benchmark/receipts/candidate-validation-v2)
-- [Review the benchmark status and release gates](https://github.com/cmcnosky/stinger/blob/main/BENCHMARK.md)
+## Work with me
 
-### [NoFuckery AI](https://cmcnosky.github.io/nofuckery/) — technical writing with explicit evidence boundaries
+I am pursuing full-time and contract work in AI evaluation, adversarial testing, agent reliability, structured failure analysis, technical writing, and release assurance. I direct product scope, architecture, evaluation design, evidence standards, and final release judgment; AI coding agents assist implementation under inspectable checks.
 
-I publish source-driven AI case analyses and evaluation notes that separate observation,
-reported claims, inference, opinion, and unknowns. Each brief states the strongest available
-evidence, the important limitations, and what the evidence does or does not justify.
-
-- [Evaluation method](https://cmcnosky.github.io/nofuckery/evidence/methods/)
-- [Stinger C-04 evaluator-correction case](https://cmcnosky.github.io/nofuckery/evidence/stinger-c04/)
-- [Claude and HAWK evidence brief](https://cmcnosky.github.io/nofuckery/evidence/claude-hawk/)
-
-### [WASP 2.0](https://github.com/cmcnosky/WASP-2.0) — safety-critical architecture, deliberately held pre-trade
-
-WASP 2.0 is a single-user, clean-room automated-trading system built around fail-closed
-authorization, decision replay, an append-only evidence ledger, environment-isolated broker
-hosts, and reconcile-first deployment. It is not trading and is not certified: live submission
-remains disabled unless a human approves the permit and every readiness gate passes.
-
----
-
-### What I'm looking for
-
-I am pursuing **full-time and contract work** in:
-
-- AI and LLM evaluation
-- AI red teaming and adversarial test design
-- AI quality, rubric design, and structured failure analysis
-- technical writing and editing for AI, agent security, and complex software systems
-- evidence-backed AI governance and release assurance
-
-I am also available for bounded evaluation engagements: define the rubric, design the
-adversarial scenarios, reproduce the failure, and turn the result into evidence another person
-can inspect.
-
-**Forwarding this to someone?** Here's the sentence:
-
-> Chris designs and audits AI-agent systems with adversarial tests, deterministic checks, and
-> evidence-backed release gates, then publishes the evidence needed to verify the result.
-
-📫 **cmcnosky@gmail.com**
+[Portfolio](https://cmcnosky.github.io) · [NoFuckery AI evidence briefs](https://cmcnosky.github.io/nofuckery/) · [cmcnosky@gmail.com](mailto:cmcnosky@gmail.com)
