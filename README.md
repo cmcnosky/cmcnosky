@@ -1,10 +1,14 @@
 # Chris McNosky
 
-**Target roles:** AI evaluation · agent reliability · AI quality operations · technical program management
+**Target roles:** full-stack web development · AI evaluation · agent reliability · AI quality operations · technical program management
 
-I turn ambiguous AI-system requirements into testable acceptance criteria, adversarial evaluations, reproducible evidence, and clear release decisions. I direct AI-assisted technical work and own the scope, architecture, review gates, and final judgment.
+I am Founder / Full Stack Web Developer / AI Evaluation & Governance at NoFuckery AI. I co-created and released [Read Shruti](https://readshruti.com), a full-stack author website built with Next.js/React, TypeScript, Cloudflare Worker API routes, D1-backed aggregate measurement, search metadata, three book pages, and retailer links.
+
+I also turn ambiguous AI-system requirements into testable acceptance criteria, adversarial evaluations, reproducible evidence, and clear release decisions. I own scope, architecture, review gates, correction decisions, and final judgment.
 
 ## What I bring to a team
+
+- Build and release full-stack web systems across front-end, API, data, metadata, and aggregate-analytics layers.
 
 - Turn unclear goals into written requirements, failure modes, and decision-ready test plans.
 
@@ -14,20 +18,24 @@ I turn ambiguous AI-system requirements into testable acceptance criteria, adver
 
 ## Selected proof
 
-### 1. [Tokio select! cfg-gated branches](https://github.com/tokio-rs/tokio/pull/8374) — took a difficult issue to a non-draft upstream PR
+### 1. [Read Shruti](https://readshruti.com) — co-created and released a full-stack author website
 
-I scoped and directed the AI-assisted Rust contribution for Tokio issue #3974 after two earlier contributor attempts closed. I derived the design contract from why those attempts failed, set the regression gates, and made the submission decision. Full upstream CI is green; the PR awaits maintainer review.
+The live site supports three books with search metadata and retailer links. Its implementation includes Next.js/React, TypeScript, Cloudflare Worker API routes, and D1-backed aggregate page-view and retailer-click measurement. This released work is the evidence for my Full Stack Web Developer title; it is not a claim of sole authorship, sales results, or earlier years of development work.
 
-### 2. Side Effects Lab — held a change out of integration despite 1,336 passing tests
+### 2. [Tokio select! cfg-gated branches](https://github.com/tokio-rs/tokio/pull/8374) — took a difficult issue to a non-draft upstream PR
+
+I scoped and directed the Rust contribution for Tokio issue #3974 after two earlier contributor attempts closed. I derived the design contract from why those attempts failed, set the regression gates, and made the submission decision. Full upstream CI is green; the PR awaits maintainer review.
+
+### 3. Side Effects Lab — held a change out of integration despite 1,336 passing tests
 
 In my evaluation lab, a second, separately prompted adversarial review found two paths where acceptance logic could approve spec-violating behavior. I required correction and retest before integration. [View public project context](https://github.com/cmcnosky/side-effects-lab); the review record itself is private.
 
-### 3. [Stinger](https://github.com/cmcnosky/stinger) — built an inspectable agent-integrity evaluator
+### 4. [Stinger](https://github.com/cmcnosky/stinger) — built an inspectable agent-integrity evaluator
 
 Stinger is a model-agnostic CLI and GitHub Action with 30 public development and conformance scenarios and seven deterministic detectors. When a real run exposed a classification defect, I preserved the wrong evidence, directed the fix, and required refusal and non-refusal regression coverage.
 
 ## Hiring fit
 
-I am pursuing full-time roles in AI evaluation and agent reliability, including quality-operations and technical-program versions of that work. Contract work is also available for bounded evaluation and reliability reviews.
+I am pursuing full-time roles in full-stack web development, AI evaluation, and agent reliability, including quality-operations and technical-program versions of that work. Contract work is also available for bounded full-stack delivery, evaluation, and reliability reviews.
 
 [Portfolio](https://cmcnosky.github.io/why-hire/) · [NoFuckery AI evidence briefs](https://cmcnosky.github.io/nofuckery/) · [cmcnosky@gmail.com](mailto:cmcnosky@gmail.com)
