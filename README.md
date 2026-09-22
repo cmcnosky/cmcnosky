@@ -20,7 +20,7 @@ I also turn ambiguous AI-system requirements into testable acceptance criteria, 
 
 ### 1. [Read Shruti](https://readshruti.com) — co-created and released a full-stack author website
 
-The live site supports three books with search metadata and retailer links. Its implementation includes Next.js/React, TypeScript, Cloudflare Worker API routes, and D1-backed aggregate page-view and retailer-click measurement. This released work is the evidence for my Full Stack Web Developer title; it is not a claim of sole authorship, sales results, or earlier years of development work.
+The live site supports three books with search metadata and retailer links. Its implementation includes Next.js/React, TypeScript, Cloudflare Worker API routes, and D1-backed aggregate page-view and retailer-click measurement.
 
 ### 2. [Tokio select! cfg-gated branches](https://github.com/tokio-rs/tokio/pull/8374) — took a difficult issue to a non-draft upstream PR
 
