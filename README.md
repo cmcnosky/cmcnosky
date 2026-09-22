@@ -1,41 +1,60 @@
 # Chris McNosky
 
-**Target roles:** full-stack web development · AI evaluation · agent reliability · AI quality operations · technical program management
+**Full stack web development · AI evaluation · agent reliability**
 
-I am Founder / Full Stack Web Developer / AI Evaluation & Governance at NoFuckery AI. I co-created and released [Read Shruti](https://readshruti.com), a full-stack author website built with Next.js/React, TypeScript, Cloudflare Worker API routes, D1-backed aggregate measurement, search metadata, three book pages, and retailer links.
+I build web applications and evaluation tools, with a focus on clear requirements,
+failure analysis, and evidence that another person can inspect. I am Founder / Full
+Stack Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
-I also turn ambiguous AI-system requirements into testable acceptance criteria, adversarial evaluations, reproducible evidence, and clear release decisions. I own scope, architecture, review gates, correction decisions, and final judgment.
+[Portfolio](https://cmcnosky.github.io/) · [Career profile and résumé](https://cmcnosky.github.io/why-hire/) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
-## What I bring to a team
+## Selected work
 
-- Build and release full-stack web systems across front-end, API, data, metadata, and aggregate-analytics layers.
+### [Stinger](https://github.com/cmcnosky/stinger) · Python / agent evaluation
 
-- Turn unclear goals into written requirements, failure modes, and decision-ready test plans.
+An evaluation CLI and reusable GitHub Actions workflow for testing coding-agent behavior against
+explicit integrity rules. Seven deterministic detectors check changes, claims,
+and traces; reports retain the evidence behind the result.
 
-- Design adversarial evaluations that expose false passes, unsupported completion claims, and missing constraints.
+**Start here:** [offline demo](https://github.com/cmcnosky/stinger/tree/main/demo) ·
+[detector implementations](https://github.com/cmcnosky/stinger/tree/main/src/stinger/detectors) ·
+[preserved evaluator failure and correction](https://cmcnosky.github.io/nofuckery/evidence/stinger-c04/)
 
-- Convert findings into correction, regression, and release gates that engineering and operating teams can use.
+### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
 
-## Selected proof
+A submitted implementation of `#[cfg]` support for `select!` branches. The change
+removes disabled branches before generated storage and scheduling. My work covers
+the design contract, implementation direction, regression requirements, and evidence
+review. The pull request contains the implementation, tests, and upstream checks.
 
-### 1. [Read Shruti](https://readshruti.com) — co-created and released a full-stack author website
+**Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
+[problem statement](https://github.com/tokio-rs/tokio/issues/3974)
 
-The live site supports three books with search metadata and retailer links. Its implementation includes Next.js/React, TypeScript, Cloudflare Worker API routes, and D1-backed aggregate page-view and retailer-click measurement.
+### [Read Shruti](https://readshruti.com) · Next.js / TypeScript / Cloudflare
 
-### 2. [Tokio select! cfg-gated branches](https://github.com/tokio-rs/tokio/pull/8374) — took a difficult issue to a non-draft upstream PR
+Co-created and released an author website with three book pages, retailer links,
+search metadata, Cloudflare Worker API routes, and D1-backed aggregate page-view
+and retailer-click measurement.
 
-I scoped and directed the Rust contribution for Tokio issue #3974 after two earlier contributor attempts closed. I derived the design contract from why those attempts failed, set the regression gates, and made the submission decision. Full upstream CI is green; the PR awaits maintainer review.
+**Start here:** [live website](https://readshruti.com)
 
-### 3. Side Effects Lab — held a change out of integration despite 1,336 passing tests
+### [WASP 2.0](https://github.com/cmcnosky/WASP-2.0) · Rust / Python / PostgreSQL
 
-In my evaluation lab, a second, separately prompted adversarial review found two paths where acceptance logic could approve spec-violating behavior. I required correction and retest before integration. [View public project context](https://github.com/cmcnosky/side-effects-lab); the review record itself is private.
+A trading-system project organized around a shared strategy and risk core, durable
+order intents, reconciliation, and explicit authorization gates. Python research
+uses the Rust core through PyO3. The repository documents the current implementation
+and readiness requirements.
 
-### 4. [Stinger](https://github.com/cmcnosky/stinger) — built an inspectable agent-integrity evaluator
+**Start here:** [architecture](https://github.com/cmcnosky/WASP-2.0/blob/main/docs/ARCHITECTURE.md) ·
+[implementation status](https://github.com/cmcnosky/WASP-2.0/blob/main/docs/IMPLEMENTATION_STATUS.md) ·
+[order-safety tests](https://github.com/cmcnosky/WASP-2.0/blob/main/crates/trader-execution/tests/order_safety.rs)
 
-Stinger is a model-agnostic CLI and GitHub Action with 30 public development and conformance scenarios and seven deterministic detectors. When a real run exposed a classification defect, I preserved the wrong evidence, directed the fix, and required refusal and non-refusal regression coverage.
+## More to inspect
 
-## Hiring fit
+- [Grafana ShortURL fix](https://github.com/grafana/grafana/pull/131070): a submitted compatibility change using the authenticated organization ID to build response URLs, with regression coverage for local, cloud, and application-subpath cases.
+- [Side Effects Lab](https://github.com/cmcnosky/side-effects-lab): a reliability-lab foundation with guarded operation state, authority checks, and event ledgers. The README separates the implemented kernel from the planned simulator and demo.
+- [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a responsive HTML/CSS/JavaScript catalog preview with shared product data and a repository-local verification script.
+- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence briefs, methods, and correction records.
 
-I am pursuing full-time roles in full-stack web development, AI evaluation, and agent reliability, including quality-operations and technical-program versions of that work. Contract work is also available for bounded full-stack delivery, evaluation, and reliability reviews.
-
-[Portfolio](https://cmcnosky.github.io/why-hire/) · [NoFuckery AI evidence briefs](https://cmcnosky.github.io/nofuckery/) · [cmcnosky@gmail.com](mailto:cmcnosky@gmail.com)
+Open to full-time roles and scoped projects in full stack web development, AI
+evaluation, and agent reliability. [Get in touch](mailto:cmcnosky@gmail.com).
