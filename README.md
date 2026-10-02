@@ -26,6 +26,18 @@ upstream CI passed.
 and tests](https://github.com/tokio-rs/tokio/pull/8374/files) · [original feature
 request](https://github.com/tokio-rs/tokio/issues/3974)
 
+### [Grafana: merged ShortURL compatibility fix](https://github.com/grafana/grafana/pull/131070) · Go
+
+Delivered a backend compatibility fix that was approved and merged upstream.
+The fix uses the authenticated numeric organization ID for non-Cloud response
+links, omits `orgId` in Grafana Cloud, and preserves configured application
+subpaths. Table-driven handler regressions cover default, named, conflicting,
+and Cloud namespace cases. The merge closed the tracked bug.
+
+**Start here:** [merged pull request and tests](https://github.com/grafana/grafana/pull/131070) ·
+[original problem](https://github.com/grafana/grafana/issues/130873) ·
+[merge commit](https://github.com/grafana/grafana/commit/6a038175eb0b75a8f25338748af3742c60dbc6d8)
+
 ### [Stinger](https://github.com/cmcnosky/stinger) · Python / agent evaluation
 
 An evaluation CLI and reusable GitHub Actions workflow for testing coding-agent
@@ -62,10 +74,6 @@ implementation and readiness requirements.
   review found two ways its acceptance logic could approve behavior that violated
   the specification. The public repository contains the reliability-lab
   foundation; the review record itself is private.
-- [Grafana ShortURL fix](https://github.com/grafana/grafana/pull/131070): a
-  merged compatibility fix using the authenticated organization ID to
-  build response URLs, with regression coverage for local, cloud, and
-  application-subpath cases.
 - [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a
   responsive HTML/CSS/JavaScript catalog preview with shared product data and a
   repository-local verification script.
