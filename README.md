@@ -1,34 +1,40 @@
 # Chris McNosky
 
-**Full stack web development · AI evaluation · agent reliability**
+**Technical project delivery · software quality · full-stack web delivery · AI evaluation**
 
-I build web applications and evaluation tools, with a focus on clear requirements,
-failure analysis, and evidence that another person can inspect. I am Founder / Full
-Stack Web Developer / AI Evaluation & Governance at NoFuckery AI.
+I turn ambiguous problems into testable requirements and delivered software. I
+identify needed expertise, direct implementation and separate review, and make
+acceptance and release decisions from reproducible evidence. My work spans
+open-source software, AI evaluation, and web delivery. I am Founder / Full Stack
+Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
 [Portfolio](https://cmcnosky.github.io/) · [Career profile and résumé](https://cmcnosky.github.io/why-hire/) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
 ## Selected work
 
+### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
+
+Delivered a working Rust implementation for Tokio's five-year-old E-hard feature
+request. Identified why earlier attempts skewed randomized selection and broke
+existing `select!` syntax, then filtered disabled branches from generated storage
+and polling. Feature code and tests remained unchanged from the initial submission
+through subsequent maintainer questions. Directed a controlled 450-invocation
+study across Rust 1.88/1.98 compilers: no unexpected results through 64 branches;
+upstream CI passed.
+
+**Status:** The pull request is open and unmerged. **Start here:** [implementation
+and tests](https://github.com/tokio-rs/tokio/pull/8374/files) · [original feature
+request](https://github.com/tokio-rs/tokio/issues/3974)
+
 ### [Stinger](https://github.com/cmcnosky/stinger) · Python / agent evaluation
 
-An evaluation CLI and reusable GitHub Actions workflow for testing coding-agent behavior against
-explicit integrity rules. Seven deterministic detectors check changes, claims,
-and traces; reports retain the evidence behind the result.
+An evaluation CLI and reusable GitHub Actions workflow for testing coding-agent
+behavior against explicit integrity rules. Seven deterministic detectors check
+changes, claims, and traces; reports retain the evidence behind the result.
 
 **Start here:** [offline demo](https://github.com/cmcnosky/stinger/tree/main/demo) ·
 [detector implementations](https://github.com/cmcnosky/stinger/tree/main/src/stinger/detectors) ·
 [preserved evaluator failure and correction](https://cmcnosky.github.io/nofuckery/evidence/stinger-c04/)
-
-### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
-
-A submitted implementation of `#[cfg]` support for `select!` branches. The change
-removes disabled branches before generated storage and scheduling. My work covers
-the design contract, implementation direction, regression requirements, and evidence
-review. The pull request contains the implementation, tests, and upstream checks.
-
-**Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
-[problem statement](https://github.com/tokio-rs/tokio/issues/3974)
 
 ### [Read Shruti](https://readshruti.com) · Next.js / TypeScript / Cloudflare
 
@@ -40,10 +46,10 @@ and retailer-click measurement.
 
 ### [WASP 2.0](https://github.com/cmcnosky/WASP-2.0) · Rust / Python / PostgreSQL
 
-A trading-system project organized around a shared strategy and risk core, durable
-order intents, reconciliation, and explicit authorization gates. Python research
-uses the Rust core through PyO3. The repository documents the current implementation
-and readiness requirements.
+A trading-system project organized around a shared strategy and risk core,
+durable order intents, reconciliation, and explicit authorization gates. Python
+research uses the Rust core through PyO3. The repository documents the current
+implementation and readiness requirements.
 
 **Start here:** [architecture](https://github.com/cmcnosky/WASP-2.0/blob/main/docs/ARCHITECTURE.md) ·
 [implementation status](https://github.com/cmcnosky/WASP-2.0/blob/main/docs/IMPLEMENTATION_STATUS.md) ·
@@ -51,10 +57,23 @@ and readiness requirements.
 
 ## More to inspect
 
-- [Grafana ShortURL fix](https://github.com/grafana/grafana/pull/131070): a submitted compatibility change using the authenticated organization ID to build response URLs, with regression coverage for local, cloud, and application-subpath cases.
-- [Side Effects Lab](https://github.com/cmcnosky/side-effects-lab): a reliability-lab foundation with guarded operation state, authority checks, and event ledgers. The README separates the implemented kernel from the planned simulator and demo.
-- [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a responsive HTML/CSS/JavaScript catalog preview with shared product data and a repository-local verification script.
-- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence briefs, methods, and correction records.
+- [Side Effects Lab](https://github.com/cmcnosky/side-effects-lab): held a change
+  out of integration despite 1,336 passing tests after separate adversarial
+  review found two ways its acceptance logic could approve behavior that violated
+  the specification. The public repository contains the reliability-lab
+  foundation; the review record itself is private.
+- [Grafana ShortURL fix](https://github.com/grafana/grafana/pull/131070): a
+  merged compatibility fix using the authenticated organization ID to
+  build response URLs, with regression coverage for local, cloud, and
+  application-subpath cases.
+- [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a
+  responsive HTML/CSS/JavaScript catalog preview with shared product data and a
+  repository-local verification script.
+- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence
+  briefs, methods, and correction records.
 
-Open to full-time roles and scoped projects in full stack web development, AI
-evaluation, and agent reliability. [Get in touch](mailto:cmcnosky@gmail.com).
+Open to full-time roles where I can define ambiguous work, direct technical
+execution, and own evidence-based quality and release decisions, including
+technical project delivery, software quality, AI evaluation, and full-stack web
+delivery. Contract work is also available for bounded delivery, evaluation, and
+reliability reviews. [Get in touch](mailto:cmcnosky@gmail.com).
