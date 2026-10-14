@@ -8,7 +8,7 @@ acceptance and release decisions from reproducible evidence. My work spans
 open-source software, AI evaluation, and web delivery. I am Founder / Full Stack
 Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
-[Portfolio](https://cmcnosky.github.io/) · [Career profile and résumé](https://cmcnosky.github.io/why-hire/) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
+[Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/chris-mcnosky-resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
 ## Selected work
 
@@ -26,8 +26,7 @@ probably works and that he plans to review it after Tokio v1.54.0.
 **Status:** The pull request remains open and unmerged, with review pending.
 **Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
 [reviewer response](https://github.com/tokio-rs/tokio/pull/8374#issuecomment-6140481706) ·
-[original feature request](https://github.com/tokio-rs/tokio/issues/3974) ·
-[one-page case study](https://cmcnosky.github.io/why-hire/assets/Chris-McNosky-Tokio-Contribution.pdf)
+[original feature request](https://github.com/tokio-rs/tokio/issues/3974)
 
 ### [Grafana: merged ShortURL compatibility fix](https://github.com/grafana/grafana/pull/131070) · Go
 
@@ -39,9 +38,7 @@ and Cloud namespace cases. The merge closed the tracked bug.
 
 **Start here:** [merged pull request and tests](https://github.com/grafana/grafana/pull/131070) ·
 [original problem](https://github.com/grafana/grafana/issues/130873) ·
-[merge commit](https://github.com/grafana/grafana/commit/6a038175eb0b75a8f25338748af3742c60dbc6d8) ·
-[one-page case study](https://cmcnosky.github.io/why-hire/assets/Chris-McNosky-Grafana-Contribution.pdf) ·
-[combined contribution supplement](https://cmcnosky.github.io/why-hire/assets/Chris-McNosky-Selected-Contributions.pdf)
+[merge commit](https://github.com/grafana/grafana/commit/6a038175eb0b75a8f25338748af3742c60dbc6d8)
 
 ### [Stinger](https://github.com/cmcnosky/stinger) · Python / agent evaluation
 
