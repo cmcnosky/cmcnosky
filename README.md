@@ -8,7 +8,7 @@ acceptance and release decisions from reproducible evidence. My work spans
 open-source software, AI evaluation, and web delivery. I am Founder / Full Stack
 Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
-[Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/chris-mcnosky-resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
+[Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/Chris%20McNosky%20Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
 ## Selected work
 
