@@ -15,17 +15,17 @@ Web Developer / AI Evaluation & Governance at NoFuckery AI.
 ### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
 
 Delivered a working Rust implementation for Tokio's five-year-old E-hard feature
-request. Identified why earlier attempts skewed randomized selection and broke
-existing `select!` syntax, then filtered disabled branches from generated storage
-and polling. Feature code and tests remained unchanged from the initial submission
+request. Analyzed the documented fairness and parsing failures in earlier attempts,
+then filtered cfg-disabled branches during normalization before generating storage
+and polling code. Feature code and tests remained unchanged from the initial submission
 through subsequent maintainer questions. Directed a controlled 450-invocation
 study across Rust 1.88/1.98 compilers: no unexpected results through 64 branches;
-upstream CI passed. On October 13, 2026, reviewer Darksonn wrote that the approach
-probably works and that he plans to review it after Tokio v1.54.0.
+upstream CI passed. On October 13, 2026, maintainer Darksonn wrote that the approach
+probably works, with a full review planned after Tokio v1.54.0.
 
 **Status:** The pull request remains open and unmerged, with review pending.
 **Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
-[reviewer response](https://github.com/tokio-rs/tokio/pull/8374#issuecomment-6140481706) ·
+[maintainer response](https://github.com/tokio-rs/tokio/pull/8374#issuecomment-6140481706) ·
 [original feature request](https://github.com/tokio-rs/tokio/issues/3974)
 
 ### [Grafana: merged ShortURL compatibility fix](https://github.com/grafana/grafana/pull/131070) · Go
@@ -33,7 +33,7 @@ probably works and that he plans to review it after Tokio v1.54.0.
 Delivered a backend compatibility fix that was approved and merged upstream.
 The fix uses the authenticated numeric organization ID for non-Cloud response
 links, omits `orgId` in Grafana Cloud, and preserves configured application
-subpaths. Table-driven handler regressions cover default, named, conflicting,
+subpaths. Table-driven handler regressions cover default, matching, conflicting,
 and Cloud namespace cases. The merge closed the tracked bug.
 
 **Start here:** [merged pull request and tests](https://github.com/grafana/grafana/pull/131070) ·
