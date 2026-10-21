@@ -14,18 +14,29 @@ Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
 ### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
 
-Delivered a working Rust implementation for Tokio's five-year-old E-hard feature
-request. Analyzed the documented fairness and parsing failures in earlier attempts,
-then filtered cfg-disabled branches during normalization before generating storage
-and polling code. Feature code and tests remained unchanged from the initial submission
-through subsequent maintainer questions. Directed a controlled 450-invocation
-study across Rust 1.88/1.98 compilers: no unexpected results through 64 branches;
-upstream CI passed. On October 13, 2026, maintainer Darksonn wrote that the approach
-probably works, with a full review planned after Tokio v1.54.0.
+Led AI-assisted delivery of a Rust feature approved and merged into Tokio, the
+open-source asynchronous runtime, on October 21, 2026. The contribution resolved
+an E-hard feature request opened in July 2021.
 
-**Status:** The pull request remains open and unmerged, with review pending.
+I framed the problem and acceptance criteria, directed implementation and testing,
+and investigated earlier fairness and parsing failures. The change filters
+cfg-disabled branches before storage, branch numbering, and polling generation,
+preserving randomized selection and existing syntax. Integration and downstream
+compile tests cover macro hygiene, caller features, preconditions, `biased;`,
+`else`, all-disabled behavior, and the 64-branch boundary.
+
+I answered a reviewer concern about exponential macro expansion with measured
+10- and 64-branch probes on Rust 1.88 and 1.98 and an exponential control. Each
+cfg probe produced one final select body; the measurements do not establish
+zero compile-time overhead. Upstream CI passed, and maintainer Darksonn approved
+the PR before merge.
+
+**Status:** Merged upstream as `de7a96a` on October 21, 2026.
 **Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
-[maintainer response](https://github.com/tokio-rs/tokio/pull/8374#issuecomment-6140481706) ·
+[maintainer approval](https://github.com/tokio-rs/tokio/pull/8374#pullrequestreview-5598690059) ·
+[expansion measurements](https://github.com/tokio-rs/tokio/pull/8374#discussion_r3984177192) ·
+[passing CI](https://github.com/tokio-rs/tokio/actions/runs/35606728369) ·
+[merge commit](https://github.com/tokio-rs/tokio/commit/de7a96abd86bd85159ce1161823e7589edb8367c) ·
 [original feature request](https://github.com/tokio-rs/tokio/issues/3974)
 
 ### [Grafana: merged ShortURL compatibility fix](https://github.com/grafana/grafana/pull/131070) · Go
