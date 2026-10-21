@@ -1,12 +1,12 @@
 # Chris McNosky
 
-**Technical project delivery · software quality · full-stack web delivery**
+**Technical project delivery · software quality · full-stack web delivery · AI evaluation**
 
 I turn ambiguous problems into testable requirements and delivered software. I
 identify needed expertise, direct implementation and separate review, and make
 acceptance and release decisions from reproducible evidence. My work spans
-open-source software, software verification, and web delivery. I am Founder / Full Stack
-Web Developer of the NoFuckery project.
+open-source software, AI evaluation, and web delivery. I am Founder / Full Stack
+Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
 [Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/Chris%20McNosky%20Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
@@ -51,11 +51,14 @@ and Cloud namespace cases. The merge closed the tracked bug.
 [original problem](https://github.com/grafana/grafana/issues/130873) ·
 [merge commit](https://github.com/grafana/grafana/commit/6a038175eb0b75a8f25338748af3742c60dbc6d8)
 
-### [Stinger](https://github.com/cmcnosky/stinger) · Python / software verification
+### [Stinger](https://github.com/cmcnosky/stinger) · Python / AI evaluation
 
-An evaluation CLI and reusable GitHub Actions workflow for checking software
-changes and result reporting against explicit integrity rules. Seven deterministic detectors check
+An evaluation CLI and reusable GitHub Actions workflow for testing AI coding-agent
+behavior against explicit integrity rules. Seven deterministic detectors check
 changes, claims, and traces; reports retain the evidence behind the result.
+The evaluation covers test integrity, specification fidelity, completion claims,
+repository policy, and bait-secret handling. Preserved failures and regression
+tests make evaluator corrections inspectable.
 
 **Start here:** [offline demo](https://github.com/cmcnosky/stinger/tree/main/demo) ·
 [detector implementations](https://github.com/cmcnosky/stinger/tree/main/src/stinger/detectors) ·
@@ -85,16 +88,17 @@ implementation and readiness requirements.
 - [Side Effects Lab](https://github.com/cmcnosky/side-effects-lab): held a change
   out of integration despite 1,336 passing tests after separate adversarial
   review found two ways its acceptance logic could approve behavior that violated
-  the specification. The public repository contains the reliability-lab
-  foundation; the review record itself is private.
+  the specification. The public repository contains the Python kernel foundation
+  for a planned AI-agent reliability lab; its executable demo and scenarios remain
+  planned. The review record itself is private.
 - [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a
   responsive HTML/CSS/JavaScript catalog preview with shared product data and a
   repository-local verification script.
-- [NoFuckery](https://cmcnosky.github.io/nofuckery/): technical evidence
+- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence
   briefs, methods, and correction records.
 
 Open to full-time roles where I can define ambiguous work, direct technical
 execution, and own evidence-based quality and release decisions, including
-technical project delivery, software quality, software verification, and full-stack web
-delivery. Contract work is also available for bounded delivery, evaluation, and
+technical project delivery, software quality, AI evaluation and safety testing,
+and full-stack web delivery. Contract work is also available for bounded delivery, evaluation, and
 reliability reviews. [Get in touch](mailto:cmcnosky@gmail.com).
