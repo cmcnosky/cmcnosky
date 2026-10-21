@@ -1,12 +1,12 @@
 # Chris McNosky
 
-**Technical project delivery · software quality · full-stack web delivery · AI evaluation**
+**Technical project delivery · software quality · full-stack web delivery**
 
 I turn ambiguous problems into testable requirements and delivered software. I
 identify needed expertise, direct implementation and separate review, and make
 acceptance and release decisions from reproducible evidence. My work spans
-open-source software, AI evaluation, and web delivery. I am Founder / Full Stack
-Web Developer / AI Evaluation & Governance at NoFuckery AI.
+open-source software, software verification, and web delivery. I am Founder / Full Stack
+Web Developer of the NoFuckery project.
 
 [Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/Chris%20McNosky%20Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
@@ -14,7 +14,7 @@ Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
 ### [Tokio: conditional `select!` branches](https://github.com/tokio-rs/tokio/pull/8374) · Rust
 
-Led AI-assisted delivery of a Rust feature approved and merged into Tokio, the
+Led delivery of a Rust feature approved and merged into Tokio, the
 open-source asynchronous runtime, on October 21, 2026. The contribution resolved
 an E-hard feature request opened in July 2021.
 
@@ -51,10 +51,10 @@ and Cloud namespace cases. The merge closed the tracked bug.
 [original problem](https://github.com/grafana/grafana/issues/130873) ·
 [merge commit](https://github.com/grafana/grafana/commit/6a038175eb0b75a8f25338748af3742c60dbc6d8)
 
-### [Stinger](https://github.com/cmcnosky/stinger) · Python / agent evaluation
+### [Stinger](https://github.com/cmcnosky/stinger) · Python / software verification
 
-An evaluation CLI and reusable GitHub Actions workflow for testing coding-agent
-behavior against explicit integrity rules. Seven deterministic detectors check
+An evaluation CLI and reusable GitHub Actions workflow for checking software
+changes and result reporting against explicit integrity rules. Seven deterministic detectors check
 changes, claims, and traces; reports retain the evidence behind the result.
 
 **Start here:** [offline demo](https://github.com/cmcnosky/stinger/tree/main/demo) ·
@@ -90,11 +90,11 @@ implementation and readiness requirements.
 - [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a
   responsive HTML/CSS/JavaScript catalog preview with shared product data and a
   repository-local verification script.
-- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence
+- [NoFuckery](https://cmcnosky.github.io/nofuckery/): technical evidence
   briefs, methods, and correction records.
 
 Open to full-time roles where I can define ambiguous work, direct technical
 execution, and own evidence-based quality and release decisions, including
-technical project delivery, software quality, AI evaluation, and full-stack web
+technical project delivery, software quality, software verification, and full-stack web
 delivery. Contract work is also available for bounded delivery, evaluation, and
 reliability reviews. [Get in touch](mailto:cmcnosky@gmail.com).
