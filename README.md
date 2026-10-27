@@ -12,7 +12,8 @@ acceptance and release decisions from the underlying record, including the
 failures.
 
 My work spans open-source software, AI evaluation, and web delivery. I
-am Founder / Full Stack Web Developer / AI Evaluation & Governance at NoFuckery AI.
+lead Cleargrain Docs, where I bring together technical project delivery,
+AI evaluation, research, spreadsheets, and documentation.
 
 [Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/Chris%20McNosky%20Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
 
@@ -77,7 +78,7 @@ tests make evaluator corrections inspectable.
 
 **Start here:** [offline demo](https://github.com/cmcnosky/stinger/tree/main/demo) ·
 [detector implementations](https://github.com/cmcnosky/stinger/tree/main/src/stinger/detectors) ·
-[preserved evaluator failure and correction](https://cmcnosky.github.io/nofuckery/evidence/stinger-c04/)
+[preserved evaluator failure and correction](https://cmcnosky.github.io/cleargrain/evidence/stinger-c04/)
 
 ### [Read Shruti](https://readshruti.com) · Next.js / TypeScript / Cloudflare
 
@@ -109,7 +110,7 @@ implementation and readiness requirements.
 - [High Pie storefront](https://github.com/cmcnosky/high-pie-hemp-website): a
   responsive HTML/CSS/JavaScript catalog preview with shared product data and a
   repository-local verification script.
-- [NoFuckery AI](https://cmcnosky.github.io/nofuckery/): technical evidence
+- [Cleargrain Docs — evidence and analysis](https://cmcnosky.github.io/cleargrain/): technical evidence
   briefs, methods, and correction records.
 
 Open to full-time roles where I can make difficult, unfamiliar work tractable,
