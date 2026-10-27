@@ -3,11 +3,15 @@
 **Technical project delivery · software quality · full-stack web delivery · AI evaluation**
 
 I make difficult, unfamiliar problems solvable—and carry the work through to a
-result that holds up. I break down the problem, identify the expertise and
+result that holds up.
+
+I break down the problem, identify the expertise and
 evidence it needs, define success, direct implementation and separate review,
 and pursue corrections when testing shows the first answer is not ready. I make
 acceptance and release decisions from the underlying record, including the
-failures. My work spans open-source software, AI evaluation, and web delivery. I
+failures.
+
+My work spans open-source software, AI evaluation, and web delivery. I
 am Founder / Full Stack Web Developer / AI Evaluation & Governance at NoFuckery AI.
 
 [Portfolio](https://cmcnosky.github.io/) · [Career profile](https://cmcnosky.github.io/why-hire/) · [Résumé with contribution evidence](https://cmcnosky.github.io/why-hire/Chris%20McNosky%20Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/chris-mcnosky/) · [Email](mailto:cmcnosky@gmail.com)
@@ -28,8 +32,9 @@ an E-hard feature request opened in July 2021.
 I framed the problem and acceptance criteria, directed implementation and testing,
 and investigated earlier fairness and parsing failures. Before publication, a
 separate review caused me to reopen a favorable readiness decision and require
-correction. The change filters
-cfg-disabled branches before storage, branch numbering, and polling generation,
+correction.
+
+The change filters cfg-disabled branches before storage, branch numbering, and polling generation,
 preserving randomized selection and existing syntax. Integration and downstream
 compile tests cover macro hygiene, caller features, preconditions, `biased;`,
 `else`, all-disabled behavior, and the 64-branch boundary.
@@ -41,6 +46,7 @@ zero compile-time overhead. Upstream CI passed, and maintainer Darksonn approved
 the PR before merge.
 
 **Status:** Merged upstream as `de7a96a` on October 21, 2026.
+
 **Start here:** [implementation and tests](https://github.com/tokio-rs/tokio/pull/8374/files) ·
 [maintainer approval](https://github.com/tokio-rs/tokio/pull/8374#pullrequestreview-5598690059) ·
 [expansion measurements](https://github.com/tokio-rs/tokio/pull/8374#discussion_r3984177192) ·
